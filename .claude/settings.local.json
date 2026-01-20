@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Bash",
+      "Glob",
+      "Grep",
+      "mcp__playwright__*",
+      "mcp__supabase__*",
+      "mcp__ide__*",
+      "Task",
+      "WebFetch",
+      "WebSearch",
+      "NotebookEdit",
+      "LSP"
+    ],
+    "deny": [
+      "Bash(rm:*)",
+      "Bash(rm -rf:*)",
+      "Bash(del:*)",
+      "Bash(rmdir:*)",
+      "Bash(Remove-Item:*)",
+      "Bash(unlink:*)"
+    ]
+  }
+}
