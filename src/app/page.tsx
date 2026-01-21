@@ -5,8 +5,10 @@ import About from "@/components/About";
 import ProductGallery from "@/components/ProductGallery";
 import Brands from "@/components/Brands";
 import Vision from "@/components/Vision";
+import FranchiseStatus from "@/components/FranchiseStatus";
 import Franchise from "@/components/Franchise";
 import Footer from "@/components/Footer";
+import SocialFloat from "@/components/SocialFloat";
 
 export default function Home() {
   return (
@@ -19,8 +21,10 @@ export default function Home() {
         <ProductGallery />
         <Brands />
         <Vision />
+        <FranchiseStatus />
         <Franchise />
       </main>
+      <SocialFloat />
       <Footer />
     </>
   );
